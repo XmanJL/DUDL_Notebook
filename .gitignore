@@ -2,8 +2,6 @@
 .ipynb_checkpoints/
 
 # datasets (ways to download specified in README)
-10-metaparams/WineQT.csv
-11-FFN/mnist_train_small.csv
 12-data/cifar10
 19-CNN/emnist
 20-CNNmilestone/fmnist

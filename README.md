@@ -33,22 +33,10 @@ Feel free to tweak the parameters to facilltate your learning experiences, espec
 
 ## Configure
 
-I didn't include the dataset files because they take too much storage (some are ~1GB)
-Here is the step-by-step direction to set <mark>each</mark> of them up manually:
+I didn't include some dataset files because they take too much storage (some are ~1GB)
+Here is the step-by-step direction to set **each** of them up manually:
 
---<mark>Wine Quality Dataset</mark>--
-
-1. [Link to download on Kaggle](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset)
-2. Rename it to `WineQT.csv`
-3. Put the downloaded file on the directory `10-metaparams`
-
---<mark>MNIST Dataset</mark>--
-
-1. [Link to download on Kaggle](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv?select=mnist_train.csv)
-2. Rename it to `mnist_train_small.csv`
-3. Put the downloaded file on the directory `11-FFN`
-
---<mark>cifar10 Dataset</mark>--
+------**cifar10 Dataset**------
 
 1. Open your notebook at `12-data/07-DUDL_data_data2colab.ipynb`
 2. Run the following 2 code cells:
@@ -67,9 +55,9 @@ print(cdata)
 
 3. Remove `download=True` from the second code cell after dataset is downloaded
 
---<mark>emnist dataset</mark>--
+------**emnist dataset**------
 
-1. Use Google Collab (this may not work Jupyter Notebook!)
+1. Use Google Collab (as this may not work on Jupyter Notebook!)
 2. Open your notebook at `19-CNN/11-DUDL_CNN_EMNIST.ipynb`
 3. Run the following code cell:
 
@@ -77,9 +65,21 @@ print(cdata)
 cdata = torchvision.datasets.EMNIST(root='emnist',split='letters', download=True)
 ```
 
-4. Remove `download=True` from the second code cell after dataset is downloaded
+4. Remove `download=True` from the code cell after dataset is downloaded
 
---<mark>stl10</mark>--
+------**fmnist dataset**------
+
+1. Open your notebook at `20-CNNmilestone/DUDL_CNNmilestone_project3.ipynb`
+2. Run the following code cell:
+
+```python
+trainset = torchvision.datasets.FashionMNIST(root='../fmnist', train=True, transform=transform, download=True)
+devtest  = torchvision.datasets.FashionMNIST(root='../fmnist', train=False, transform=transform)
+```
+
+3. Remove `download=True` from the code cell after dataset is downloaded
+
+------**stl10**------
 
 1. Open your notebook at `21-transferlearning/03-DUDL_transfer_resnet.ipynb`
 2. Run the following code cell:
@@ -89,4 +89,4 @@ trainset = torchvision.datasets.STL10(root='./stl10', split='train', transform=t
 testset  = torchvision.datasets.STL10(root='./stl10', split='test',  transform=transform)
 ```
 
-3. Remove `download=True` from the second code cell after dataset is downloaded
+3. Remove `download=True` from the code cell after dataset is downloaded
