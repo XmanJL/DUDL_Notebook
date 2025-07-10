@@ -1,0 +1,34 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# datasets (ways to download specified in README)
+10-metaparams/WineQT.csv
+11-FFN/mnist_train_small.csv
+12-data/cifar10
+19-CNN/emnist
+20-CNNmilestone/fmnist
+21-transferlearning/stl10
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook metadata/output
+*.nbconvert.ipynb
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter runtime
+~/.local/share/jupyter/runtime/
