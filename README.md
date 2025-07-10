@@ -1,10 +1,16 @@
 # COURSE: A deep understanding of deep learning
 
+<p align="center">
+    <img src="course-logo.png" alt="course logo" width="200"/>
+</p>
+
 TEACHER: Mike X Cohen, sincxpress.com
 
 COURSE URL: udemy.com/course/deeplearning_x/?couponCode=202212
 
-Disclaimer: I have ZERO affilation with Prof. Mike nor Udemy. Just an ambitious learner :)
+Kaggle Dataset Link: [WineQuality](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset),[MNIST](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv)
+
+Disclaimer: I have ZERO affilation with Prof. Mike nor Udemy. Just an ambitious learner ♪─── Ｏ（≧∇≦）Ｏ ────♪
 
 ## Inspiration
 
@@ -34,7 +40,9 @@ Feel free to tweak the parameters to facilltate your learning experiences, espec
 I didn't include some dataset files because they take too much storage (some are ~1GB)
 Here is the step-by-step direction to set **each** of them up manually:
 
-------**cifar10 Dataset**------
+---
+
+**cifar10 Dataset**
 
 1. Open your notebook at `12-data/07-DUDL_data_data2colab.ipynb`
 2. Run the following 2 code cells:
@@ -53,7 +61,9 @@ print(cdata)
 
 3. Remove `download=True` from the second code cell after dataset is downloaded
 
-------**emnist dataset**------
+---
+
+**emnist dataset**
 
 1. Use Google Collab (as this may not work on Jupyter Notebook!)
 2. Open your notebook at `19-CNN/11-DUDL_CNN_EMNIST.ipynb`
@@ -65,7 +75,9 @@ cdata = torchvision.datasets.EMNIST(root='emnist',split='letters', download=True
 
 4. Remove `download=True` from the code cell after dataset is downloaded
 
-------**fmnist dataset**------
+---
+
+**fmnist dataset**
 
 1. Open your notebook at `20-CNNmilestone/DUDL_CNNmilestone_project3.ipynb`
 2. Run the following code cell:
@@ -77,7 +89,9 @@ devtest  = torchvision.datasets.FashionMNIST(root='../fmnist', train=False, tran
 
 3. Remove `download=True` from the code cell after dataset is downloaded
 
-------**stl10**------
+---
+
+**stl10**
 
 1. Open your notebook at `21-transferlearning/03-DUDL_transfer_resnet.ipynb`
 2. Run the following code cell:
