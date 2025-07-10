@@ -1,12 +1,10 @@
 # COURSE: A deep understanding of deep learning
 
-## SECTION: Introduction to Python: data types
+TEACHER: Mike X Cohen, sincxpress.com
 
-#### TEACHER: Mike X Cohen, sincxpress.com
+COURSE URL: udemy.com/course/deeplearning_x/?couponCode=202212
 
-##### COURSE URL: udemy.com/course/deeplearning_x/?couponCode=202212
-
-##### Disclaimer: I have zero affilation with Prof. Mike nor Udemy
+Disclaimer: I have ZERO affilation with Prof. Mike nor Udemy. Just an ambitious learner :)
 
 ## Inspiration
 
