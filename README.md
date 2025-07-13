@@ -1,7 +1,7 @@
 # COURSE: A deep understanding of deep learning
 
 <p align="center">
-    <img src="course-logo.png" alt="course logo" width="200"/>
+    <img src="course-logo.png" alt="course logo" width="350"/>
 </p>
 
 TEACHER: Mike X Cohen, sincxpress.com
@@ -10,7 +10,7 @@ COURSE URL: udemy.com/course/deeplearning_x/?couponCode=202212
 
 Kaggle Dataset Link: [WineQuality](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset),[MNIST](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv)
 
-Disclaimer: I have ZERO affilation with Prof. Mike nor Udemy. Just an ambitious learner ♪─── Ｏ（≧∇≦）Ｏ ────♪
+Disclaimer: I have ZERO affilation with Professor Mike nor Udemy. Just an ambitious learner ♪—— Ｏ（≧∇≦）Ｏ ——♪
 
 ## Inspiration
 
